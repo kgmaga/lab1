@@ -129,6 +129,7 @@ img {
   border: 0;
 }
 
+
 svg:not(:root) {
   overflow: hidden;
 }
@@ -7115,4 +7116,5 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
+  
 }
