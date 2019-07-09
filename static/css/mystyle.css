@@ -4,9 +4,10 @@ html {
 		}
 
 body {
-	background-color:#e8f1ff;
-  background-size: cover;
-  background-repeat: no-repeat;
+	background-color: white;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
   margin: 0;
   padding: 0;
   }
@@ -50,7 +51,7 @@ h3{
         .image-holder
         {
             width: 2400px;
-            background-color: #e8f1ff;
+            background-color: lightblue;
             height: 400px;
             clear: both;
             position: relative;
@@ -83,6 +84,7 @@ h3{
         {
             left: -1600px;
         }
+		
         
         .button-holder
         {
@@ -112,4 +114,5 @@ h3{
   clear: both;
   display: table;
 }
-		
+
+	
