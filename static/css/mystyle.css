@@ -4,9 +4,16 @@ html {
 		}
 
 body {
+<<<<<<< HEAD
 	background-color: black;
   background-size: auto;
   background-repeat: no-repeat;
+=======
+	background-color: white;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+>>>>>>> 20ce26030d9842b6eaae695110472464a186386a
   margin: 0;
   padding: 0;
   }
@@ -50,7 +57,11 @@ h3{
         .image-holder
         {
             width: 2400px;
+<<<<<<< HEAD
             background-color: black;
+=======
+            background-color: lightblue;
+>>>>>>> 20ce26030d9842b6eaae695110472464a186386a
             height: 400px;
             clear: both;
             position: relative;
@@ -83,6 +94,7 @@ h3{
         {
             left: -1600px;
         }
+		
         
         .button-holder
         {
@@ -112,4 +124,5 @@ h3{
   clear: both;
   display: table;
 }
-		
+
+	
