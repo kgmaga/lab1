@@ -8,7 +8,7 @@ body {
 	background-color: black;
   background-size: 1720px 800px;
   background-repeat: no-repeat;
-	background-attachment: scroll;
+	 background-attachment: fixed;
 
   margin: 0;
   padding: 0;
@@ -27,6 +27,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  
 	}
 
 h1 {
@@ -112,9 +113,11 @@ h3{
             background-color: red;
         }
 .column {
+	
   float: left;
   width: 33.33%;
-  padding: 5px;
+  padding: 15px 20px;
+  
   
   
 }
