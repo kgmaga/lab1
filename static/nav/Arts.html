@@ -4,8 +4,8 @@
 <head>
 	<title>Kat Maga-Arts</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="../css/mystyle.css">
-	<script src="js/script.js"> </script>
+	<link rel="stylesheet" href="../css/modal.css">
+	<script src="../js/modal.js"> </script>
 	<div class="topnav">
   <a class="home" href="../index.html">Home</a>
   <a href="About.html">About</a>
@@ -22,74 +22,66 @@
 	<h1 align="center"> The drawings I've made </h1>
 	<div class="row">
   <div class="column">
-    <!-- Trigger the Modal -->
-<img id="myImg" src="../images/temp.jpg" alt="S.V" style="width: 50%; max-width:80%">
+    <img src="../images/temp.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../images/temp2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../images/temp3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="../images/temp4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
 
-<!-- The Modal -->
 <div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
 
-  <!-- The Close Button -->
-  <span class="close">&times;</span>
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="../images/temp.jpg" style="width:100%">
+    </div>
 
-  <!-- Modal Content (The Image) -->
-  <img class="modal-content" id="img01">
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="../images/temp2.jpg" style="width:100%">
+    </div>
 
-  <!-- Modal Caption (Image Text) -->
-  <div id="caption"></div>
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="../images/temp3.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="../images/temp4.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="../images/temp.jpg" style="width:100%" onclick="currentSlide(1)" alt="S.V">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../images/temp2.jpg" style="width:100%" onclick="currentSlide(2)" alt="GFL Mirani">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../images/temp3.jpg" style="width:100%" onclick="currentSlide(3)" alt="RP Mirani">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../images/temp4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Sisters">
+    </div>
+  </div>
 </div>
-</div>
-<div class="column">
-    <!-- Trigger the Modal -->
-<img id="myImg" src="../images/temp2.jpg" alt="GFL Mirani" style="width: 50%; max-width:80%">
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- The Close Button -->
-  <span class="close">&times;</span>
-
-  <!-- Modal Content (The Image) -->
-  <img class="modal-content" id="img01">
-
-  <!-- Modal Caption (Image Text) -->
-  <div id="caption"></div>
-</div>
-</div>
-<div class="column">
-    <!-- Trigger the Modal -->
-<img id="myImg" src="../images/temp3.jpg" alt="RP Mirani" style="width: 50%; max-width:80%">
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- The Close Button -->
-  <span class="close">&times;</span>
-
-  <!-- Modal Content (The Image) -->
-  <img class="modal-content" id="img01">
-
-  <!-- Modal Caption (Image Text) -->
-  <div id="caption"></div>
-</div>
-</div>
-<div class="column">
-    <!-- Trigger the Modal -->
-<img id="myImg" src="../images/temp4.jpg" alt="Sisters" style="width: 50%; max-width:80%">
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- The Close Button -->
-  <span class="close">&times;</span>
-
-  <!-- Modal Content (The Image) -->
-  <img class="modal-content" id="img01">
-
-  <!-- Modal Caption (Image Text) -->
-  <div id="caption"></div>
-</div>
-</div>
-</div>
 
 
 </body>
