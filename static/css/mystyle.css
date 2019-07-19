@@ -13,6 +13,8 @@ body {
   margin: 0;
   padding: 0;
   }
+
+  
   
 article {
   float: center;
@@ -113,17 +115,19 @@ h3{
             border-radius: 5px;
             background-color: red;
         }
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-	
+.row > .column {
+  padding: 0 8px;
 }
 
-/* Clear floats after image containers */
-.row::after {
+.row:after {
   content: "";
   clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 17%;
   display: table;
 }
 .topnav {
